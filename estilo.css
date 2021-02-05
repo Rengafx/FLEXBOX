@@ -2,6 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: #2a2a2a;
+    
 }
 
 .logo {
@@ -16,6 +17,7 @@ body {
     display: flex;
     background-color: black;
     padding: 10px;
+    border-bottom: 4px solid green;
 }
 
 .menu {
@@ -39,20 +41,31 @@ body {
 }
 hr{
     width: 700px;
-    border: 5px solid white;
+    border: 5px solid green;
     border-radius: 25px;
     margin-top: 25px;
 }
 
 h1 {
     font-size: 60px;
-    color:white;
+    color:black;
     text-align: center;
 }
 h2{
     font-size: 40px;
     text-align: center;
    
+}
+.capa{
+    margin: 0 auto;
+    display: flex;
+    width: 1200px;
+    height: 600px;
+    background-image: url("capa3.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .container {
@@ -62,6 +75,21 @@ h2{
     margin: 0 auto;
     justify-content: center;
 }
+.container2 {
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+.container3{
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+
+}
 
 .produto {
     width: 300px;
@@ -70,20 +98,28 @@ h2{
     border: 2px solid black;
     margin: 5px;
 }
-
-.container2 {
-    max-width: 900px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    justify-content: center;
-}
-
 .produto2 {
     width: 200px;
-    background-color: rgb(222, 245, 17);
+    background-color: rgb(19, 235, 12);
     text-align: center;
     border-radius: 12px;
     border: 7px solid black;
     margin: 5px;
+}
+.vendedores{
+    text-align: center;
+    
+    margin: 7px;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    border: 8px solid black;
+    border-radius: 100%;
+}
+.vendedores{
+    background-image: url("vendedor.jpg");
+    background-repeat: no-repeat;
+    background-size: 405px;
+    background-position-x: center;
+    background-position-y:center ;
 }
